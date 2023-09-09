@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.kingpin{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  font-size: 25rem;
+  z-index: -1;
+  opacity: .2;
+  rotate: -45deg;
+}
